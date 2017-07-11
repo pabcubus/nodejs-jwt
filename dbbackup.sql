@@ -1,5 +1,3 @@
-CREATE USER nodejsuser WITH PASSWORD 'admin';
-
 drop schema public cascade;
 
 create schema public;

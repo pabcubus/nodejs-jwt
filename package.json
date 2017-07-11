@@ -4,7 +4,9 @@
 	"description": "",
 	"main": "run-serve.js",
 	"scripts": {
-		"test": "echo \"Error: no test specified\" && exit 1"
+		"test": "nodemon run-serve.js",
+		"prepare-win": "npm install -g nodemon & npm install",
+		"prepare-mac": "sudo npm install -g nodemon && npm install"
 	},
 	"author": "",
 	"license": "ISC",
